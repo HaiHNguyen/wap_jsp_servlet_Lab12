@@ -6,12 +6,12 @@
 
     <servlet>
         <servlet-name>supportRequest</servlet-name>
-        <servlet-class>RequestSupportServlet</servlet-class>
+        <servlet-class>mum.wap.servlet.RequestSupportServlet</servlet-class>
     </servlet>
 
     <servlet>
-        <servlet-name>myservlet</servlet-name>
-        <servlet-class>HelloServlet</servlet-class>
+        <servlet-name>firstservlet</servlet-name>
+        <servlet-class>mum.wap.servlet.HelloServlet</servlet-class>
 
         <init-param>
             <param-name>database</param-name>
@@ -20,7 +20,7 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>myservlet</servlet-name>
+        <servlet-name>firstservlet</servlet-name>
         <url-pattern>/firstservlet</url-pattern>
     </servlet-mapping>
 
